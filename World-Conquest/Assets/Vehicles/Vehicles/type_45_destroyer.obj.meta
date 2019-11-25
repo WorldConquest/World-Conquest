@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 122c7de3356336f49a47c0d56941c6d5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: plot_central_type_45_destroyer
+    100002: //RootNode
+    100004: type_45_destroyer_aileron
+    100006: type_45_destroyer_air_de_lancement
+    100008: type_45_destroyer_air_surveillance_radar
+    100010: type_45_destroyer_coque_bateau
+    100012: type_45_destroyer_corps_bateau_est
+    100014: type_45_destroyer_gouvernaille
+    100016: type_45_destroyer_naval_gun
+    100018: type_45_destroyer_naval_gun_canon
+    100020: type_45_destroyer_plot_avant
+    100022: type_45_destroyer_radar1
+    100024: type_45_destroyer_radar2
+    100026: type_45_destroyer_radar4
+    100028: type_45_destroyer_radar_tracking
+    100030: type_45_destroyer_structure_support_gouvernaille
+    100032: type_45_destroyer_support_radar1
+    100034: type_45_destroyer_support_radar2
+    400000: plot_central_type_45_destroyer
+    400002: //RootNode
+    400004: type_45_destroyer_aileron
+    400006: type_45_destroyer_air_de_lancement
+    400008: type_45_destroyer_air_surveillance_radar
+    400010: type_45_destroyer_coque_bateau
+    400012: type_45_destroyer_corps_bateau_est
+    400014: type_45_destroyer_gouvernaille
+    400016: type_45_destroyer_naval_gun
+    400018: type_45_destroyer_naval_gun_canon
+    400020: type_45_destroyer_plot_avant
+    400022: type_45_destroyer_radar1
+    400024: type_45_destroyer_radar2
+    400026: type_45_destroyer_radar4
+    400028: type_45_destroyer_radar_tracking
+    400030: type_45_destroyer_structure_support_gouvernaille
+    400032: type_45_destroyer_support_radar1
+    400034: type_45_destroyer_support_radar2
+    2100000: plot_central_type_45_destroyerMat
+    2100002: type_45_destroyer_aileronMat
+    2100004: type_45_destroyer_air_de_lancementMat
+    2100006: type_45_destroyer_air_surveillance_radarMat
+    2100008: type_45_destroyer_coque_bateauMat
+    2100010: type_45_destroyer_corps_bateau_estMat
+    2100012: type_45_destroyer_gouvernailleMat
+    2100014: type_45_destroyer_naval_gunMat
+    2100016: type_45_destroyer_naval_gun_canonMat
+    2100018: type_45_destroyer_plot_avantMat
+    2100020: type_45_destroyer_radar1Mat
+    2100022: type_45_destroyer_radar2Mat
+    2100024: type_45_destroyer_radar4Mat
+    2100026: type_45_destroyer_radar_trackingMat
+    2100028: type_45_destroyer_structure_support_gouvernailleMat
+    2100030: type_45_destroyer_support_radar1Mat
+    2100032: type_45_destroyer_support_radar2Mat
+    2300000: plot_central_type_45_destroyer
+    2300002: type_45_destroyer_aileron
+    2300004: type_45_destroyer_air_de_lancement
+    2300006: type_45_destroyer_air_surveillance_radar
+    2300008: type_45_destroyer_coque_bateau
+    2300010: type_45_destroyer_corps_bateau_est
+    2300012: type_45_destroyer_gouvernaille
+    2300014: type_45_destroyer_naval_gun
+    2300016: type_45_destroyer_naval_gun_canon
+    2300018: type_45_destroyer_plot_avant
+    2300020: type_45_destroyer_radar1
+    2300022: type_45_destroyer_radar2
+    2300024: type_45_destroyer_radar4
+    2300026: type_45_destroyer_radar_tracking
+    2300028: type_45_destroyer_structure_support_gouvernaille
+    2300030: type_45_destroyer_support_radar1
+    2300032: type_45_destroyer_support_radar2
+    3300000: plot_central_type_45_destroyer
+    3300002: type_45_destroyer_aileron
+    3300004: type_45_destroyer_air_de_lancement
+    3300006: type_45_destroyer_air_surveillance_radar
+    3300008: type_45_destroyer_coque_bateau
+    3300010: type_45_destroyer_corps_bateau_est
+    3300012: type_45_destroyer_gouvernaille
+    3300014: type_45_destroyer_naval_gun
+    3300016: type_45_destroyer_naval_gun_canon
+    3300018: type_45_destroyer_plot_avant
+    3300020: type_45_destroyer_radar1
+    3300022: type_45_destroyer_radar2
+    3300024: type_45_destroyer_radar4
+    3300026: type_45_destroyer_radar_tracking
+    3300028: type_45_destroyer_structure_support_gouvernaille
+    3300030: type_45_destroyer_support_radar1
+    3300032: type_45_destroyer_support_radar2
+    4300000: plot_central_type_45_destroyer
+    4300002: type_45_destroyer_aileron
+    4300004: type_45_destroyer_air_de_lancement
+    4300006: type_45_destroyer_air_surveillance_radar
+    4300008: type_45_destroyer_coque_bateau
+    4300010: type_45_destroyer_corps_bateau_est
+    4300012: type_45_destroyer_gouvernaille
+    4300014: type_45_destroyer_naval_gun
+    4300016: type_45_destroyer_naval_gun_canon
+    4300018: type_45_destroyer_plot_avant
+    4300020: type_45_destroyer_radar1
+    4300022: type_45_destroyer_radar2
+    4300024: type_45_destroyer_radar4
+    4300026: type_45_destroyer_radar_tracking
+    4300028: type_45_destroyer_structure_support_gouvernaille
+    4300030: type_45_destroyer_support_radar1
+    4300032: type_45_destroyer_support_radar2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
