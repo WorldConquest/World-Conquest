@@ -62,7 +62,8 @@ public class Vehicle_move_boat : MonoBehaviour
             moveDirection = new Vector3(0, 0, speed);
             if(start == false)
             {
-                if(transform.position.x <= placementDefautX)
+                //Changer le sens de la balise si l'arène est rotate 
+                if(transform.position.x >= placementDefautX)
                 {
                     speed = 0;
                     moveDirection = transform.TransformDirection(moveDirection);
@@ -91,8 +92,8 @@ public class Vehicle_move_boat : MonoBehaviour
             {
                 speed = speedInit;
                 moveDirection = transform.TransformDirection(moveDirection);
-
-                if(transform.position.x < placementDefautX)
+                //Changer le sens de la balise si l'arène est rotate
+                if(transform.position.x > placementDefautX)
                 {
                     start = false;
                 }

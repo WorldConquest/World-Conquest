@@ -104,8 +104,8 @@ public class Vehicle_move_plane: MonoBehaviour
                 altitude      = +1;
                 moveDirection = transform.TransformDirection(moveDirection);
             }
-
-            if(transform.position.x < placementDefautX)
+            //Changer le sens de la balise si l'arène est rotate
+            if(transform.position.x > placementDefautX)
             {
                 start = false;
             }

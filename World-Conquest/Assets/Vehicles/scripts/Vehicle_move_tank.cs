@@ -24,8 +24,8 @@ public class Vehicle_move_tank: MonoBehaviour
     public float gravity           = +20f;
     public float debutAleaGen      = 0f;
     public float delaiEntreAleaGen = +10f;
-    public float limiteZCombatInfX  = +17f;
-    public float limiteZCombatSupX  = +13f;
+    public float limiteZCombatSupX  = +17f;
+    public float limiteZCombatInfX  = +13f;
     private float speed;
     public float speedInit  = +2f;
     public float speedMoins = -1f;  //Valeur de vitesse la plus basse générée dans la zone de combat
@@ -82,7 +82,8 @@ public class Vehicle_move_tank: MonoBehaviour
                 else
                 {
                     //Si le véhicule tape la bordure de la zone de combat
-                    if(transform.position.x < limiteZCombatSupX)
+                    //Changer le sens de la balise si l'arène est rotate
+                    if(transform.position.x > limiteZCombatSupX)
                     {
                         //Génération aléatoire d'une vitesse négative le véhicule recule
                         speed         = speedBornes * -1;
@@ -103,7 +104,8 @@ public class Vehicle_move_tank: MonoBehaviour
                     speed         = speedInit;
                     moveDirection = transform.TransformDirection(moveDirection);
                     //Dès que le véhicule est dans la zone de combat changement de l'état de la variable start
-                    if(transform.position.x < limiteZCombatInfX)
+                    //Changer le sens de la balise si l'arène est rotate
+                    if(transform.position.x > limiteZCombatInfX)
                     {
                         start = false;
                     }
