@@ -26,4 +26,14 @@ public class MenuPrincipal : MonoBehaviour {
     {
         Debug.Log(volume);
     }
+
+    public void Option()
+    {
+        SceneManager.LoadScene("MenuOption", LoadSceneMode.Additive);
+    }
+
+    public void CityBuilder()
+    {
+        SceneManager.LoadScene("CityBuilder", LoadSceneMode.Additive);
+    }
 }
