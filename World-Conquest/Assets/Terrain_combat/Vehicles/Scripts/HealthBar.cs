@@ -20,6 +20,7 @@ public class HealthBar : MonoBehaviour
 
     private void Update()
     {
+        //Performance trop impacter par un refresh update a chaque frame donc on fait autrement avec la fonction au dessus
         //transform.Find("Bar").localScale = new Vector3(healthSystem.GetHealthPercent(), 1);
     }
 }

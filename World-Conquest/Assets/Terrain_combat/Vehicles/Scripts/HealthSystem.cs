@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 public class HealthSystem
 {
    public event EventHandler OnHealthChanged; // Évenement lors du la vie change
