@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CityBuilder.unity
     guid: 2b7d5dbea68daab4f91b695ea4ed3329
   - enabled: 1
+    path: Assets/Scenes/SelectionOfUnits.unity
+    guid: 45a3b21baabe70247957e882f89f0c96
+  - enabled: 1
     path: Assets/Scenes/TankArena.unity
     guid: 46aec6ffcb4802b469768d8d012cc672
   - enabled: 1

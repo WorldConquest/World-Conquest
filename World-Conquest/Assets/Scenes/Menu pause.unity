@@ -768,10 +768,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7888064661124601036, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
+    - target: {fileID: 7888064661951475252, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
         type: 3}
-      propertyPath: m_Name
-      value: Bouton reprendre
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8725693525534762992, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
         type: 3}
@@ -877,21 +877,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7888064661757133935, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7888064661346443074, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7888064661124601026, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7888064661502549623, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
         type: 3}
@@ -1013,15 +998,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: 7888064661951475252, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
+    - target: {fileID: 7888064661124601036, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
         type: 3}
-      propertyPath: m_IsActive
+      propertyPath: m_Name
+      value: Bouton reprendre
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888064661346443074, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888064661757133935, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7888064661124601037, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7888064661124601026, guid: 5b904ba10e22ae3408ea1f687a32f3c2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b904ba10e22ae3408ea1f687a32f3c2, type: 3}
@@ -1059,16 +1059,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 994167868184484819, guid: d67cf42c9faf443439d0d06b06013ddb,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 994167868184484819, guid: d67cf42c9faf443439d0d06b06013ddb,
-        type: 3}
-      propertyPath: m_Name
-      value: Menu Option
       objectReference: {fileID: 0}
     - target: {fileID: 5877985296715373423, guid: d67cf42c9faf443439d0d06b06013ddb,
         type: 3}
@@ -1174,6 +1164,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994167868184484819, guid: d67cf42c9faf443439d0d06b06013ddb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994167868184484819, guid: d67cf42c9faf443439d0d06b06013ddb,
+        type: 3}
+      propertyPath: m_Name
+      value: Menu Option
       objectReference: {fileID: 0}
     - target: {fileID: 5877985296715373417, guid: d67cf42c9faf443439d0d06b06013ddb,
         type: 3}
