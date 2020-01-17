@@ -1102,6 +1102,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 2729866690921891461, guid: 6904a31c62de8f84ab6d831f4d7214c6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2729866690921891463, guid: 6904a31c62de8f84ab6d831f4d7214c6,
         type: 3}
       propertyPath: m_Sprite
@@ -1161,7 +1166,7 @@ PrefabInstance:
     - target: {fileID: 2729866690921891460, guid: 6904a31c62de8f84ab6d831f4d7214c6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Option
+      value: MenuParametre
       objectReference: {fileID: 0}
     - target: {fileID: 2729866690921891460, guid: 6904a31c62de8f84ab6d831f4d7214c6,
         type: 3}

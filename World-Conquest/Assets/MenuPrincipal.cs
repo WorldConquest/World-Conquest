@@ -36,4 +36,9 @@ public class MenuPrincipal : MonoBehaviour {
     {
         SceneManager.LoadScene("CityBuilder", LoadSceneMode.Additive);
     }
+
+    public void MenuParametre()
+    {
+        SceneManager.LoadScene("Menu Paramètres", LoadSceneMode.Additive);
+    }
 }
