@@ -638,12 +638,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b904ba10e22ae3408ea1f687a32f3c2, type: 3}
---- !u!1 &1274775977 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 994167868184484819, guid: d67cf42c9faf443439d0d06b06013ddb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1508837546}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1508837546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1155,18 +1149,7 @@ MonoBehaviour:
   - eventID: 4
     callback:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1274775977}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
   delegates: []
 --- !u!1 &1687849716
 GameObject:
