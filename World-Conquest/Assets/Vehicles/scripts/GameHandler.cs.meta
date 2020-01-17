@@ -3,7 +3,11 @@ guid: 0204366d07d19f34c8a814eec6d9b289
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - pfHealthBar: {fileID: 4250691559562987784, guid: d109c3501babe8344897b723339b7d9a,
+      type: 3}
+  - Attack_Button: {instanceID: 0}
+  - Heal_Button: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
