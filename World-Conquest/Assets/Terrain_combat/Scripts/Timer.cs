@@ -25,7 +25,7 @@ public class Timer : MonoBehaviour
         {
             //print(timer);
             //Update the value of the component every seconds 
-            timerSec -= Time.deltaTime*5;
+            timerSec -= Time.deltaTime;
             timerText.text = timerSec.ToString("f0"); 
   
         }
