@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class selection : MonoBehaviour
 {
@@ -21,4 +22,11 @@ public class selection : MonoBehaviour
     {
         transform.Rotate(0f, speedRotation, 0f);
     }
+
+    private void OnMouseDown()
+    {
+        PlayerPrefs.SetString("Player", gameObject.name);
+        SceneManager.LoadScene("TankArena");
+    }
+    
 }
