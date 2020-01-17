@@ -41,4 +41,9 @@ public class MenuPrincipal : MonoBehaviour {
     {
         SceneManager.LoadScene("Menu Paramètres", LoadSceneMode.Additive);
     }
+
+    public void TankArena()
+    {
+        SceneManager.LoadScene("TankArena", LoadSceneMode.Additive);
+    }
 }
