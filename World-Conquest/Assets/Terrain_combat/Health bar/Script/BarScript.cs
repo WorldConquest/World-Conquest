@@ -5,17 +5,34 @@ using UnityEngine.UI;
 
 public class BarScript : MonoBehaviour
 {
-    [SerializeField] //Allow to see a private variable in unity
     private float fillAmount;
 
     [SerializeField]
+    private float lerpSpeed; // Allows the life bar to be reduced gently. To give a progressive effect
+
+    [SerializeField] //Allow to see a private variable in unity
     private Image content; // We using namespace Image 
 
+    [SerializeField]
+    private Text valueText;
+
+    [SerializeField]
+    private Color fullColor; // This is a full color of a bar script 
+
+    [SerializeField]
+    private Color lowColor; // This is a low color of a bar script
+
+    [SerializeField]
+    private bool lerpColor; // Allow to choice wich one bar script use lerp color
     public float MaxValue { get; set; }
     public float Value
     {
         set
         {
+            // To write the right value in the health bar
+            string[] tmp = valueText.text.Split(':');
+            valueText.text = tmp[0] + ": " + value; // tmp[0] = health 
+
             fillAmount = Map(value, 0, MaxValue, 0, 1);
         }
     }
@@ -23,7 +40,10 @@ public class BarScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (lerpColor)
+        {
+            content.color = fullColor; // Initialize bool lerpColor
+        }
     }
 
     // Update is called once per frame
@@ -36,7 +56,12 @@ public class BarScript : MonoBehaviour
     {
         if (fillAmount != content.fillAmount)
         {
-            content.fillAmount = fillAmount; //We update a fillAmout if the fillAmout is different at content.fillAmount (the current fillAmount)
+            content.fillAmount = Mathf.Lerp(content.fillAmount, fillAmount, Time.deltaTime * lerpSpeed); //We update a fillAmout if the fillAmout is different at content.fillAmount (the current fillAmount)
+        }
+        if (lerpColor)
+        {
+            content.color = Color.Lerp(lowColor, fullColor, fillAmount); // Allow to change color for a bar script if is low
+
         }
     }
 

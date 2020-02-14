@@ -6,11 +6,14 @@ public class Player : MonoBehaviour
 {
     [SerializeField]
     private Stat health;
+    
+    [SerializeField]
+    private Stat shield;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        health.Initialize();
+        shield.Initialize();
     }
 
     // Update is called once per frame
@@ -23,6 +26,15 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             health.CurrentVal += 10;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            shield.CurrentVal -= 10;
+        }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            shield.CurrentVal += 10;
         }
     }
 }
