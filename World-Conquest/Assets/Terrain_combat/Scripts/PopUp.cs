@@ -7,15 +7,16 @@ using UnityEngine.UI;
 public class PopUp : MonoBehaviour
 {
     public Text message;
+    public GameObject tutorial;
     public string[] popUps = 
     {
-        "Ici delta 1 je vous reçois",
-        "Ici delta 2 je vous reçois",
-        "Ici delta 3 je vous reçois",
-        "Ici delta 4 je vous reçois",
-        "Ici delta 5 je vous reçois",
-        "Ici delta 6 je vous reçois",
-        "Je vous recois mal très mal"
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
     };
     private int i=0;
 
@@ -27,7 +28,11 @@ public class PopUp : MonoBehaviour
     }
     void Update()
     {
-        if( Input.GetKeyDown("space"))
+        if(Input.GetKeyDown("space") && (i == popUps.Length))
+        {
+            tutorial.SetActive(false);
+        }
+        else if( Input.GetKeyDown("space"))
         {
             message.text = popUps[i];
             i++;
