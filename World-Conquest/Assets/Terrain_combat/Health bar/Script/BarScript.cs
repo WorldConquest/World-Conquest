@@ -10,8 +10,8 @@ public class BarScript : MonoBehaviour
     [SerializeField]
     private float lerpSpeed; // Allows the life bar to be reduced gently. To give a progressive effect
 
-    [SerializeField] //Allow to see a private variable in unity
-    private Image content; // We using namespace Image 
+    [SerializeField]        //Allow to see a private variable in unity
+    private Image content;  // We using namespace Image 
 
     [SerializeField]
     private Text valueText;
