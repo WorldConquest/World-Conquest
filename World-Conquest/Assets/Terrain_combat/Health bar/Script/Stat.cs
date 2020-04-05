@@ -6,13 +6,13 @@ using System;
 [Serializable]
 public class Stat
 {
-    [SerializeField]//Allow to see a private variable in unity
+    [SerializeField]    //Allow to see a private variable in unity
     private BarScript bar;
 
-    [SerializeField]//Allow to see a private variable in unity
+    [SerializeField]    //Allow to see a private variable in unity
     private float maxVal;
 
-    [SerializeField]//Allow to see a private variable in unity
+    [SerializeField]    //Allow to see a private variable in unity
     private float currentVal;
 
     public float CurrentVal 
@@ -43,7 +43,7 @@ public class Stat
 
     public void Initialize()
     {
-        this.MaxVal = maxVal; // We initialize the max value 
-        this.CurrentVal = currentVal; // We initialize the current value
+        this.MaxVal = maxVal;           // We initialize the max value 
+        this.CurrentVal = currentVal;   // We initialize the current value
     }
 }

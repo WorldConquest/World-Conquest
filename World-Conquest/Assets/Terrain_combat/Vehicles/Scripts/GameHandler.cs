@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using CodeMonkey; // Namespace pour les boutons CMDebug.ButtonUI
 
 public class GameHandler : MonoBehaviour
 {
