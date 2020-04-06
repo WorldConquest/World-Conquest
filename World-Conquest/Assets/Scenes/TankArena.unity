@@ -3109,8 +3109,8 @@ MonoBehaviour:
     bar: {fileID: 1442964619}
     maxVal: 100
     currentVal: 100
-  attackEffectInEnemy: {fileID: 0}
-  deathEffectInEnemy: {fileID: 0}
+  attackEffectInEnemy: {fileID: 100000, guid: 8e02e06584f51ab42986fd44c73d976e, type: 3}
+  deathEffectInEnemy: {fileID: 100000, guid: 67e5b9f09995840449c988b145cc1d7b, type: 3}
 --- !u!1 &1755589166
 GameObject:
   m_ObjectHideFlags: 0
