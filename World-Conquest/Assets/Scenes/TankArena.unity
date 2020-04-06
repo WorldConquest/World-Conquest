@@ -606,6 +606,7 @@ GameObject:
   - component: {fileID: 105523761}
   - component: {fileID: 105523763}
   - component: {fileID: 105523762}
+  - component: {fileID: 105523764}
   m_Layer: 5
   m_Name: text
   m_TagString: Untagged
@@ -629,7 +630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 23}
+  m_AnchoredPosition: {x: 0, y: 21}
   m_SizeDelta: {x: 450, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &105523762
@@ -645,14 +646,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21586862, g: 0.5943396, b: 0.29148215, a: 1}
+  m_Color: {r: 0.18098079, g: 0.7830189, b: 0.29890582, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 18
+    m_Font: {fileID: 12800000, guid: df1f4c1027c7f204da32d2e97af4f39d, type: 3}
+    m_FontSize: 20
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -663,7 +664,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Text content
+  m_Text: Tutoriel
 --- !u!222 &105523763
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -672,6 +673,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105523760}
   m_CullTransparentMesh: 0
+--- !u!114 &105523764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105523760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a936b23e667973f44ba52882ee592404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: {fileID: 105523762}
+  tutorial: {fileID: 209955776}
+  popUps:
+  - "Ici tour de contr\xF4le est ce que vous me recevez ?"
+  - Nous subissons une attaque massive
+  - "Unit\xE9 6 au rapport"
+  - "Unit\xE9 15 au rapport"
+  - "Rendez vous \xE0 nos coordonn\xE9es"
+  - A l'attaque
+  - Attention sur le flan droit
+  - "Noooonn le tank subit des d\xE9gats"
+  - Nous sommes presques
+  - "C'est gagn\xE9 !!!"
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -3136,7 +3162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.8117647}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.9019608}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
