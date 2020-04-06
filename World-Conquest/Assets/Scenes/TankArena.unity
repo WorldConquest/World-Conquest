@@ -1608,7 +1608,7 @@ GameObject:
   - component: {fileID: 973255570}
   - component: {fileID: 973255572}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2833,7 +2833,8 @@ MonoBehaviour:
     bar: {fileID: 1442964619}
     maxVal: 100
     currentVal: 100
-  attackEffect: {fileID: 100000, guid: 2d036894dd2a9024a978924c521444bf, type: 3}
+  attackEffectInEnemy: {fileID: 0}
+  deathEffectInEnemy: {fileID: 0}
 --- !u!1001 &1812921517
 PrefabInstance:
   m_ObjectHideFlags: 0
