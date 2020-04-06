@@ -41,3 +41,16 @@ The following packages were added:
   com.unity.modules.vr@1.0.0
   com.unity.modules.wind@1.0.0
   com.unity.modules.xr@1.0.0
+
+=== Mon Apr  6 18:53:10 2020
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.postprocessing@2.1.4
+  com.unity.progrids@3.0.3-preview.4
+  com.unity.timeline@1.0.0
+The following packages were updated:
+  com.unity.package-manager-ui from version 2.0.8 to 2.1.2
+  com.unity.textmeshpro from version 1.4.1 to 2.0.0
