@@ -29,32 +29,32 @@ public class MenuPrincipal : MonoBehaviour {
 
     public void Option()
     {
-        SceneManager.LoadScene("MenuOption", LoadSceneMode.Additive);
+        SceneManager.LoadScene("MenuOption");
     }
 
     public void CityBuilder()
     {
-        SceneManager.LoadScene("CityBuilder", LoadSceneMode.Additive);
+        SceneManager.LoadScene("CityBuilder");
     }
 
     public void MenuParametre()
     {
-        SceneManager.LoadScene("Menu Paramètres", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Menu Paramètres");
     }
 
     public void TankArena()
     {
-        SceneManager.LoadScene("TankArena", LoadSceneMode.Additive);
+        SceneManager.LoadScene("TankArena");
     }
 
     public void SelectionOfUnits()
     {
-        SceneManager.LoadScene("SelectionOfUnits", LoadSceneMode.Additive);
+        SceneManager.LoadScene("SelectionOfUnits");
     }
 
     public void SelectionNiveau()
     {
-        SceneManager.LoadScene("SelectionNiveau", LoadSceneMode.Additive);
+        SceneManager.LoadScene("SelectionNiveau");
     }
 
     void DestroyGameObject()
