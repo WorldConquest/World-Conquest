@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    // 
     [SerializeField]
     private Stat healthPlayer;
     
@@ -21,7 +22,21 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private GameObject deathEffectInEnemy;
-    
+
+    [SerializeField]
+    private Destruction destructionEnemy;
+
+    //Effects vector variable
+    [SerializeField]
+    private float vectorX;
+
+    [SerializeField]
+    private float vectorY;
+
+    [SerializeField]
+    private float vectorZ;
+
+
     private void Awake()
     {
         healthPlayer.Initialize();
@@ -60,20 +75,21 @@ public class Player : MonoBehaviour
         {
             if (shieldEnemy.CurrentVal > 0)
             {
-                shieldEnemy.CurrentVal -= 10;
+                shieldEnemy.CurrentVal -= Random.Range(1,50);
                 // Occurrence of explosion
-                Instantiate(attackEffectInEnemy, new Vector3(170, 10, 142), Quaternion.identity);
+                Instantiate(attackEffectInEnemy, new Vector3(vectorX, vectorY, vectorZ), Quaternion.identity);
             }
             else
             {
-                healthEnemy.CurrentVal -= 10;
+                healthEnemy.CurrentVal -= Random.Range(1, 50);
                 // Occurrence of explosion
-                Instantiate(attackEffectInEnemy, new Vector3(170, 10, 142), Quaternion.identity);
+                Instantiate(attackEffectInEnemy, new Vector3(vectorX, vectorY, vectorZ), Quaternion.identity);
             }
             if (healthEnemy.CurrentVal <= 0)
             {
                 // Occurrence of explosion of death
-                Instantiate(deathEffectInEnemy, new Vector3(170, 10, 142), Quaternion.identity);
+                Instantiate(deathEffectInEnemy, new Vector3(vectorX, vectorY, vectorZ), Quaternion.identity);
+                destructionEnemy.DestructionObject();
             }
         }
 
