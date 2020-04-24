@@ -12,7 +12,7 @@ public class MenuPrincipal : MonoBehaviour {
 
     public void Quitter()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false; // Bug when build project
         Debug.Log("Vous avez quittez!");
         Application.Quit();
     }

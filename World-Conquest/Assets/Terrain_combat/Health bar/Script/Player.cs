@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -28,14 +29,13 @@ public class Player : MonoBehaviour
 
     //Effects vector variable
     [SerializeField]
-    private float vectorX;
+    private float vectorX = 170;
 
     [SerializeField]
-    private float vectorY;
+    private float vectorY = 10;
 
     [SerializeField]
-    private float vectorZ;
-
+    private float vectorZ = 142;
 
     private void Awake()
     {
@@ -73,7 +73,7 @@ public class Player : MonoBehaviour
         // Management of the enemy's life
         if (Input.GetKeyDown(KeyCode.A))
         {
-            if (shieldEnemy.CurrentVal > 0)
+            if (shieldEnemy.CurrentVal > 0 && healthEnemy.CurrentVal > 0)
             {
                 shieldEnemy.CurrentVal -= Random.Range(1,50);
                 // Occurrence of explosion
@@ -90,9 +90,21 @@ public class Player : MonoBehaviour
                 // Occurrence of explosion of death
                 Instantiate(deathEffectInEnemy, new Vector3(vectorX, vectorY, vectorZ), Quaternion.identity);
                 destructionEnemy.DestructionObject();
+
             }
         }
-
         // Management of the enemy's shield
+    }
+    void OnGUI()
+    {
+        if (healthEnemy.CurrentVal <= 0)
+        {
+
+            if (GUI.Button(new Rect(Screen.width / 2 - 80, Screen.height / 2 + 50, 140, 80), "You win !"))
+            {
+                SceneManager.LoadScene("CityBuilder");
+            }
+
+        }
     }
 }

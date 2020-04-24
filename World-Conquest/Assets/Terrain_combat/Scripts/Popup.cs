@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Popup : MonoBehaviour
 {
+    public AudioSource AudioSource;
     public Text message;
     public GameObject tutorial;
     public string[] popUps = 
@@ -23,14 +24,16 @@ public class Popup : MonoBehaviour
     void Start()
     {
         //Link the variable and the component
-        message = GetComponent<Text>();   
-
+        message = GetComponent<Text>();
+        AudioSource AudioSource = GetComponent<AudioSource>();
     }
     void Update()
     {
         if(Input.GetKeyDown("space") && (i == popUps.Length))
         {
             tutorial.SetActive(false);
+            // When the tutorial is finish, the sound is louder
+            AudioSource.volume = 0.45f; // 0.0-1.0, you can change this at runtime (0 mute / 1 = volume 100 %) 
         }
         else if( Input.GetKeyDown("space"))
         {
