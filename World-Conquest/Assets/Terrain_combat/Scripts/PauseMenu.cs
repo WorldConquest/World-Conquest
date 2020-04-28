@@ -51,7 +51,6 @@ public class PauseMenu : MonoBehaviour
     {
         if (isPaused)
         {
-
             //  If the button is pressed then isPaused becomes false so the game resumes.
             if (GUI.Button(new Rect(Screen.width / 2 - 80, Screen.height / 2 - 50, 140, 80), "Continue"))
             {
