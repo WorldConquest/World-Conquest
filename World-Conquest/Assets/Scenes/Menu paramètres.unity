@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reprendre
+  m_text: Resume
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1099,7 +1099,7 @@ MonoBehaviour:
   m_margin: {x: -9.11853, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 930585302}
-    characterCount: 9
+    characterCount: 6
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -1262,7 +1262,7 @@ PrefabInstance:
     - target: {fileID: 3943568460938128159, guid: 52f4b6567082fdc4ba7a45099458c2c5,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3943568460938128159, guid: 52f4b6567082fdc4ba7a45099458c2c5,
         type: 3}
@@ -1294,6 +1294,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSizeBase
       value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943568460938128159, guid: 52f4b6567082fdc4ba7a45099458c2c5,
+        type: 3}
+      propertyPath: m_text
+      value: Quit
       objectReference: {fileID: 0}
     - target: {fileID: 3943568462269339843, guid: 52f4b6567082fdc4ba7a45099458c2c5,
         type: 3}
@@ -1736,6 +1741,21 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 696198743}
+    - target: {fileID: 160887496557565788, guid: 46bbf9d427d62b84da787d38136d71c7,
+        type: 3}
+      propertyPath: m_text
+      value: Arenas
+      objectReference: {fileID: 0}
+    - target: {fileID: 160887496629487996, guid: 46bbf9d427d62b84da787d38136d71c7,
+        type: 3}
+      propertyPath: m_text
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 160887496859895817, guid: 46bbf9d427d62b84da787d38136d71c7,
+        type: 3}
+      propertyPath: m_text
+      value: vehicles
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46bbf9d427d62b84da787d38136d71c7, type: 3}
 --- !u!1001 &1800669452564730456
@@ -2219,6 +2239,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0.99999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 7743545197706333061, guid: c6e1637e5fbbfaf47844330892de81ed,
+        type: 3}
+      propertyPath: m_text
+      value: Vehicles List
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800669453539784029, guid: c6e1637e5fbbfaf47844330892de81ed,
+        type: 3}
+      propertyPath: m_text
+      value: Back
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6e1637e5fbbfaf47844330892de81ed, type: 3}
@@ -2741,6 +2771,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 41a106eb053e2d94cae93d505dbfdc07,
         type: 3}
+    - target: {fileID: 5239573942387714434, guid: 0bf4e0c072efdcd4ab5f065657f14efc,
+        type: 3}
+      propertyPath: m_text
+      value: Arenas List
+      objectReference: {fileID: 0}
+    - target: {fileID: 4144167789515681939, guid: 0bf4e0c072efdcd4ab5f065657f14efc,
+        type: 3}
+      propertyPath: m_text
+      value: Back
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4e0c072efdcd4ab5f065657f14efc, type: 3}
 --- !u!1 &7426420445472960816 stripped
