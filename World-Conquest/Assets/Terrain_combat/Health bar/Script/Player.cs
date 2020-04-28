@@ -105,13 +105,13 @@ public class Player : MonoBehaviour
         // Management of the enemy's life
         if (Input.GetKeyDown(KeyCode.A))
         {
-            if (shieldEnemy.CurrentVal > 0 && healthEnemy.CurrentVal > 0)
+            if (shieldEnemy.CurrentVal > 0 && healthEnemy.CurrentVal > 0 && healthPlayer.CurrentVal > 0)
             {
                 shieldEnemy.CurrentVal -= Random.Range(1,50);
                 // Occurrence of explosion
                 Instantiate(attackEffectInEnemy, new Vector3(vectorEnemyX, vectorEnemyY, vectorEnemyZ), Quaternion.identity);
             }
-            else
+            else if(shieldEnemy.CurrentVal <= 0 && healthEnemy.CurrentVal > 0 && healthPlayer.CurrentVal > 0)
             {
                 healthEnemy.CurrentVal -= Random.Range(1, 50);
                 // Occurrence of explosion
@@ -129,13 +129,13 @@ public class Player : MonoBehaviour
         // Management of the ally life
         if (Input.GetKeyDown(KeyCode.P))
         {
-            if (shieldPlayer.CurrentVal > 0 && healthPlayer.CurrentVal > 0)
+            if (shieldPlayer.CurrentVal > 0 && healthPlayer.CurrentVal > 0 && healthEnemy.CurrentVal > 0)
             {
                 shieldPlayer.CurrentVal -= Random.Range(1, 50);
                 // Occurrence of explosion
                 Instantiate(attackEffectInPlayer, new Vector3(vectorAllyX, vectorAllyY, vectorAllyZ), Quaternion.identity);
             }
-            else
+            else if(shieldPlayer.CurrentVal <= 0 && healthPlayer.CurrentVal > 0 && healthEnemy.CurrentVal > 0)
             {
                 healthPlayer.CurrentVal -= Random.Range(1, 50);
                 // Occurrence of explosion
@@ -169,7 +169,7 @@ public class Player : MonoBehaviour
         if (healthEnemy.CurrentVal <= 0)
         {
 
-            if (GUI.Button(new Rect(Screen.width / 2 - 80, Screen.height / 2 + 50, 140, 80), "You win !"))
+            if (GUI.Button(new Rect(Screen.width / 2 - 65, Screen.height / 2 + 50, 140, 80), "You win !"))
             {
                 SceneManager.LoadScene("CityBuilder");
             }
@@ -177,7 +177,7 @@ public class Player : MonoBehaviour
         }
         if (healthPlayer.CurrentVal <= 0)
         {
-            if (GUI.Button(new Rect(Screen.width / 2 - 65, Screen.height / 2 - 80, 140, 80), "You lose..."))
+            if (GUI.Button(new Rect(Screen.width / 2 - 65, Screen.height / 2 - 110, 140, 80), "You lose..."))
             {
                 //SceneManager.LoadScene("CityBuilder");
             }

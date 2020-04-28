@@ -33,7 +33,7 @@ public class Popup : MonoBehaviour
         {
             tutorial.SetActive(false);
             // When the tutorial is finish, the sound is louder
-            AudioSource.volume = 0.45f; // 0.0-1.0, you can change this at runtime (0 mute / 1 = volume 100 %) 
+            AudioSource.volume = 0.35f; // 0.0-1.0, you can change this at runtime (0 mute / 1 = volume 100 %) 
         }
         else if( Input.GetKeyDown("space"))
         {

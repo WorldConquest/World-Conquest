@@ -52,14 +52,14 @@ public class PauseMenu : MonoBehaviour
         if (isPaused)
         {
             //  If the button is pressed then isPaused becomes false so the game resumes.
-            if (GUI.Button(new Rect(Screen.width / 2 - 80, Screen.height / 2 - 50, 140, 80), "Continue"))
+            if (GUI.Button(new Rect(Screen.width / 2 - 65, Screen.height / 2 - 30, 140, 80), "Continue"))
             {
                 isPaused = false;
             }
 
             // If the button is pressed then the game is completely closed.
             // In the case of the exit button, you have to increase its Y position so that it is lower.
-            if (GUI.Button(new Rect(Screen.width / 2 - 80, Screen.height / 2 + 50, 140, 80), "City builder"))
+            if (GUI.Button(new Rect(Screen.width / 2 - 65, Screen.height / 2 + 70, 140, 80), "City builder"))
             {
                 SceneManager.LoadScene("CityBuilder");
             }
