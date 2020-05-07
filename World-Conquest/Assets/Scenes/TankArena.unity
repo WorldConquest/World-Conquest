@@ -1136,7 +1136,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tutoriel
+  m_Text: "Tutoriel \n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t     press space to pass"
 --- !u!222 &105523763
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1161,16 +1161,20 @@ MonoBehaviour:
   message: {fileID: 105523762}
   tutorial: {fileID: 209955776}
   popUps:
-  - "Ici tour de contr\xF4le est ce que vous me recevez ?"
-  - Nous subissons une attaque massive
-  - "Unit\xE9 6 au rapport"
-  - "Unit\xE9 15 au rapport"
-  - "Rendez vous \xE0 nos coordonn\xE9es"
-  - A l'attaque
-  - Attention sur le flan droit
-  - "Noooonn le tank subit des d\xE9gats"
-  - Nous sommes presques
-  - "C'est gagn\xE9 !!!"
+  - "Maggy ! John ! Nous sommes attaqu\xE9s !!"
+  - "C'est impossible Angel !  Nous venons tout juste de signer le trait\xE9 de paix."
+  - '*Explosion*'
+  - "Nous n'avons plus le choix nous devons prot\xE9ger la base des assaillants, allons
+    chercher notre tank. Je vous retrouve au point de ralliement."
+  - '*Explosion*'
+  - "D\xE9p\xEAchez-vous entrez ! Allons aux abords de la base pour riposter."
+  - Maggy aux commandes, John au canon ! Nous n'allons pas nous laisser faire par
+    ces vauriens.
+  - '*Explosion*'
+  - "Le voila regardez il est l\xE0 \xE0 5h ! Maggy fait demi-tour ! Je perds le visuel
+    ! "
+  - '*Explosion*'
+  - "Nous sommes touch\xE9s !!! "
 --- !u!1 &131699764 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100072, guid: 77983b90fd19b9d4a837ee2d3dd4b309,
