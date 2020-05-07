@@ -1136,7 +1136,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tutoriel \n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t     press space to pass"
+  m_Text: " \n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t     press space to pass"
 --- !u!222 &105523763
 CanvasRenderer:
   m_ObjectHideFlags: 0
